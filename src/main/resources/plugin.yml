@@ -1,0 +1,23 @@
+name: MuscleShop
+author: HydroSnow
+version: 0.0.1
+main: fr.hydrosnow.muscleshop.MuscleShop
+description: "Concu avec amour par HydroSnow."
+depends: [Vault]
+softdepend: [Vault]
+
+commands:
+    muscleshop:
+        description: "Ouvrir l'interface de MuscleShop"
+        aliases: [ms, hdv]
+        
+permissions:
+    muscleshop.use:
+        default: op
+        description: "Utiliser le plugin"
+    muscleshop.shop:
+        default: op
+        description: "Créer un shop"
+    muscleshop.adminshop:
+        default: op
+        description: "Créer un admin shop"
